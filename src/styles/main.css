@@ -1,0 +1,33 @@
+@import './resetAntd.css';
+
+html {
+  background-color: #f0f2f5;
+}
+
+#app {
+  min-width: 1200px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.page-content {
+  margin: 12px;
+  padding: 16px;
+  background: #fff;
+}
+
+.list-box{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #f0f2f5;
+  width: 100%;
+}
+
+.list-table{
+  position: relative;
+  flex: 1 1;
+  background: #fff;
+  height: calc(100% - 38px);
+  display: flex;
+}
